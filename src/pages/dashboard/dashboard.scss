@@ -1,0 +1,94 @@
+.section-wrapper {
+    width: calc(100vw - 180px) !important;
+    margin: auto;
+    min-height: calc(100vh - 50px) !important;
+    padding: 60px 0 !important;
+    box-sizing: border-box;
+    .header {
+        margin: 80px 0 40px 0px;
+        text-align: center;
+    }
+    h1 {
+        font-weight: 300;
+    }
+    .filter {
+        hr {
+            margin-top: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .filter-wrapper {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .filter-item {
+                .btn-secondary {
+                    color: black;
+                    background-color: white;
+                    border: none;
+                }
+                .btn-secondary:hover {
+                    text-decoration: underline;
+                    text-underline-position: under;
+                }
+            }
+        }
+    }
+    .spinner-container {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        right: 48%;
+    }
+    .dashboard-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 30px 0;
+        .item {
+            width: 380px;
+            padding: 15px;
+            .tile-wrapper {
+                .card {
+                    width: 20rem;
+                    margin: auto;
+                    border: none;
+                    i {
+                        background-color: grey;
+                        border-radius: 50%;
+                        border: 1px solid grey;
+                        padding: 6px;
+                        width: 30px;
+                        height: 30px;
+                    }
+                    .circle-icon {
+                        color: rgba(255, 255, 255, 0.65);
+                        position: absolute;
+                        right: 30px;
+                        top: 10px;
+                    }
+                    .card-img-top {
+                        height: 200px;
+                        width: 300px;
+                    }
+                    .card-body {
+                        padding: 5px 0 5px 0;
+                        text-align: center;
+                        p {
+                            margin-bottom: 0;
+                        }
+                        .title {
+                            color: #797777;
+                        }
+                        .content {
+                            color: #797777;
+                            margin-bottom: 10px;
+                        }
+                        .price {
+                            font-weight: 800;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

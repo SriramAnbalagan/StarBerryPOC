@@ -1,0 +1,10 @@
+.error-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+   .error-content {
+       margin-bottom: 20px;
+   }
+}

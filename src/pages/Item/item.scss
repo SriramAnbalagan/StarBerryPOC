@@ -1,0 +1,17 @@
+.section-wrapper {
+    width: calc(100vw - 180px) !important;
+    margin: auto;
+    min-height: calc(100vh - 50px) !important;
+    padding: 20px 0 !important;
+    box-sizing: border-box;
+    .item-wrapper {
+        margin-top: 50px;
+        width: 100%;
+        .row {
+            .item-column {
+                height: 80vh;
+            }
+        }
+    }
+   
+}

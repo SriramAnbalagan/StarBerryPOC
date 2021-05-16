@@ -1,0 +1,1 @@
+export const GET_PROPERTY_DATA_API = `https://carolineolds-strapi-dev.q.starberry.com/properties?_limit=50`;
